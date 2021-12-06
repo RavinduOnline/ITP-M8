@@ -617,7 +617,7 @@ onSubmit = (e) => {
 
                 <td>
                    <button type="button" className="editBtn1"><a style={{textDecoration:'none',color:'white'}} href={`/FoodItems/edit/${posts._id}`}><i class="fas fa-pen"></i>&nbsp;Edit</a></button>
-                  &nbsp;
+                   &nbsp;
                   <button type="button" className="deleteBtn1"><a style={{textDecoration:'none',color:'white'}} onClick={() => this.onDelete(posts._id)}><i class="fas fa-trash"></i>&nbsp;Delete</a></button>
                 </td>
               </tr>
